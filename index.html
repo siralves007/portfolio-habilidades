@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Habilidades-</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo">Bem-vindo ao meu Portfólio!</h1>
+        <p>Esta página fala um pouco sobre mim.</p>
+    </header>
+
+    <section id="sobre">
+        <display: flex;>
+        <h2>Sobre mim</h2>
+        <img src="img/foto1.jpg" alt="Uma mesa de computador com acessórios de produtividade nela" class="foto">
+        <p>Eu sou o Matheus. Gosto muito da area de ensino de tecnologia para crianças com metologia gamificada.</p>
+    </section>
+
+    <section id="midia">
+        <display: flex;></display:>
+        <h2>Um pouco do que gosto</h2>
+        <p>Esse canal é de resolução de sudokus com regras diferentes. Eu não consigo fazer nada, mas amo acompanhar o raciocínio lógico dele.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xv8D0737qfc?si=LAvlkVQS1qYQXjdn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </display: flex;>
+    </section>
+
+    <section id="tabela">
+        <display: flex;>
+        <h2>Meus Hobbies e Gostos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hobby</th>
+                    <th>Nível de Habilidade</th>
+                    <th>Motivo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Xadrez</td>
+                    <td>Avançado</td>
+                    <td>Ajuda no raciocínio lógico</td>
+                </tr>
+                <tr>
+                    <td>Robótica</td>
+                    <td>Intermediário</td>
+                    <td>Adoro construir e programar</td>
+                </tr>
+                <tr>
+                    <td>Filmes</td>
+                    <td>Amante</td>
+                    <td>Gosto de histórias envolventes</td>
+                </tr>
+            </tbody>
+        </table>
+         </display: flex;>
+    </section>
+
+    <section id="formulario">
+        <display: flex;>
+        <h2>Contato / Feedback</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo: nome@provedor.com.br" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea>
+
+            <p>O que você achou da página?</p>
+            <input type="radio" id="gostei" name="opiniao" value="Gostei">
+            <label for="gostei">Gostei</label>
+            <input type="radio" id="naoGostei" name="opiniao" value="Não Gostei">
+            <label for="naoGostei">Não Gostei</label>
+
+            <input type="checkbox" id="termos" name="termos" required>
+            <label for="termos">Concordo com os termos fictícios</label>
+
+            <button type="submit">Enviar</button>
+        </form>
+         </display: flex;>
+    </section>
+
+</body>
+</html>
